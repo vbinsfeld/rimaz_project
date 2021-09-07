@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.contador {
+  text-align: center;
+}
+
+.proxima {
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+
+#fim {
+  /* float: right; */
+  margin: 0 0 0 50px;
+}
+
+.textboxclass {
+  padding: 20px;
+}
+
+.init {
+  margin-left: 125px;
+  margin-top: 20px;
+}

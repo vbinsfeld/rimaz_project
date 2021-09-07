@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="http://rimaz.com.br/wp-content/themes/rimazarqdesign/imgs/logo-simbolo-rimaz-arq-design-branco-sombra@2x.png" rel="icon" type="image/png" />
+    <title>Rimaz ArqDesign - Meu Perfil</title>
+  </head>
+  <body style="background-color: rgb(201, 201, 98);">
+    <h1>
+      <p class="titulo">Meu Perfil Rimaz ArqDesign</p>
+    </h1>
+    <div class="contador" id="contadorr">
+      <p>Você está na escolha #<span class="imagecounter">1</span> de um total de 4.</p>
+    </div>
+    <div id="fim">
+      <img 
+        id="imagefim" 
+        width="300px"
+        class="imgfim"
+      />
+    </div>
+    <div class="parent">
+      <div class="imagens">
+        <img
+          src="https://i.pinimg.com/originals/1f/54/b0/1f54b06b468af6d0cf8b4cf8077b8501.jpg"
+          width="300px"
+          id="idimagemum"
+        />
+        <img
+          src="https://i.pinimg.com/originals/00/90/eb/0090ebae45979be1e34eac445f3aa7c5.jpg"
+          width="300px"
+          id="idimagemdois"
+        />
+      </div>
+    </div>
+    <div class="radios" id="inputs"=>
+      ------------- <<
+      <input
+        class="input1"
+        type="radio"
+        id="imagem-um"
+        name="radiobuttton"
+        value="valor-imagem-dois"
+        unchecked
+      />
+      <label for = "imagem-um"> Imagem A </label>
+      >> ----------------
+      ------------- <<
+      <input
+        class="input2"
+        type="radio"
+        id="imagem-dois"
+        name="radiobuttton"
+        value="valor-imagem-dois"
+        unchecked
+        <label for = "imagem-dois"> Imagem B </label>
+        >> -----------------
+    </div>
+    <div id="textbox" class="textboxclass">
+      <form>
+        Para entendermos melhor, nos diga, por que você escolheu essa imagem?
+        <br>
+        <textarea id="textboxid" rows="3" cols="68" name="opiniao" placeholder="Ex: Eu gostei da cor da cozinha..."></textarea>
+        <br>
+      </form>
+    </div>
+    <div class="proxima">
+      <button class="btnanterior"><< Anterior</button>
+      <button class="btnagain">Recomeçar</button>
+      <button class="btn check">Próxima >></button>
+    </div>
+    <div class="tresponto">
+      <p class="message">Status: ...</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
